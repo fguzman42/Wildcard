@@ -1,5 +1,5 @@
-# Say hello to my crappy game!
-
+# 42-Wildcard Alien Shooter game using Pygame
+![](https://media.giphy.com/media/KfZk0STKAo76TBthQ7/giphy.gif)
 
 What is Wildcard?
 
