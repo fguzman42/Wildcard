@@ -9,12 +9,21 @@ Wildcard is an arbitrary project based on a concept we were assigned during Hack
 
 To be able to run the game, make sure you have [pygame](https://www.pygame.org/news) installed on your computer. To install pygame, you can use the following command:
 
-'''bash
+```bash
 $ python3 -m pip install --user pygame
-'''
+```
 
 Once you have pygame installed, you can now run the game using the command below.
 
-'''bash
+```bash
 python3 alien_invasion.py
-'''
+```
+
+## Controls
+click the green "Play" button to start.
+Left and Right arrows to move the ship.
+Spacebar to shoot.
+Esc to quit the game.
+
+## Sources
+This is one of the projects in Eric Matthe's [Python Crash Course](https://nostarch.com/pythoncrashcourse2e)
