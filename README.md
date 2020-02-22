@@ -1,4 +1,4 @@
-Say hello to my crappy game!
+# Say hello to my crappy game!
 
 
 What is Wildcard?
