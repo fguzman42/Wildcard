@@ -27,3 +27,6 @@ Esc to quit the game.
 
 ## Sources
 This is one of the projects in Eric Matthe's [Python Crash Course](https://nostarch.com/pythoncrashcourse2e)
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
