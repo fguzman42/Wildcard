@@ -1,3 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    scoreboard.py                                      :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: fguzman <fguzman@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/02/21 14:12:31 by fguzman           #+#    #+#              #
+#    Updated: 2020/02/21 14:24:34 by fguzman          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# This file contains the class used for scoring, it keeps track of high scores, and it displays
+# previous high score after you lost all your lives.
+
 import pygame.font
 from pygame.sprite import Group
 from ship import Ship

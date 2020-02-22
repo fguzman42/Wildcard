@@ -1,3 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    ship.py                                            :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: fguzman <fguzman@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/02/21 14:13:07 by fguzman           #+#    #+#              #
+#    Updated: 2020/02/21 14:24:45 by fguzman          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# This file contains the class for the ship, and the methods are used for ship position. 
+
 import pygame
 from pygame.sprite import Sprite
 

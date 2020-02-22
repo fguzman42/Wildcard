@@ -1,3 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    alien_invasion.py                                  :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: fguzman <fguzman@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/02/21 14:12:55 by fguzman           #+#    #+#              #
+#    Updated: 2020/02/21 14:24:39 by fguzman          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# This file contains the main class for rendering the game. It calls all other classes and creates objects related to game play.
+
 import sys
 from time import sleep
 import pygame
@@ -17,7 +31,7 @@ class AlienInvasion:
 			self.screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
 			self.settings.screen_width = self.screen.get_rect().width
 			self.settings.screen_height = self.screen.get_rect().height
-			pygame.display.set_caption("test :)")
+			pygame.display.set_caption("Space Shooter")
 			self.stats = GameStats(self)
 			self.sb = Scoreboard(self)
 			self.ship = Ship(self)
